@@ -2,3 +2,4 @@ pytest
 mypy
 black
 flake8
+tox
