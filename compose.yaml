@@ -1,0 +1,9 @@
+name: testing-tox
+services:
+  pythontox:
+    image: pytesting
+    tty: true
+    ports:
+      - 8123:8123
+    volumes:
+      - .:/usr/home/prajasek
