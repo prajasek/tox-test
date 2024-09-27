@@ -29,10 +29,10 @@ jobs:
     - name: Run tox
       run: 
         tox -e test
-    - name: Run lint 
-      run: 
-        tox -e lint 
     - name: Run formatting
       run: 
         tox -e format
+    - name: Run lint 
+      run: 
+        tox -e lint 
     
