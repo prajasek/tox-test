@@ -1,5 +1,5 @@
 import pytest 
-from main.main import add
+from pytoxtest.main import add
 
 def test_add():
     result = add(1,2)

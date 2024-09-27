@@ -1,0 +1,11 @@
+[build-system]
+requires=["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name="pytoxtest"
+version ="0.0.0"
+dependencies= [
+    "mypy", "pytest", "tox", "black", "flake8" 
+]
+descriptions = "Just to test out github actions workflow with python tox"
