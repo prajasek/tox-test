@@ -35,4 +35,7 @@ jobs:
     - name: Run lint 
       run: 
         tox -e lint 
+    - name: Run mypy
+      run:
+        tox -e mypy
     
